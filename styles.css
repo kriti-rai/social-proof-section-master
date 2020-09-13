@@ -4,11 +4,16 @@ body {
   font-size: 15px;
   font-family: 'Spartan', sans-serif;
 }
+#root {
+  margin: 40px;
+}
 
 .header {
+  position: absolute;
   float: left;
   display: inline-block;
 }
+
 .main-header {
   color: hsl(300, 43%, 22%);
   width: 22%;
@@ -36,7 +41,9 @@ body {
   display: inline-flex;
   color: hsl(300, 43%, 22%);
 }
-
+.testimonial-img {
+  border-radius: 50%;
+}
 .verified-tag {
   color: hsl(333, 80%, 67%);
 }
