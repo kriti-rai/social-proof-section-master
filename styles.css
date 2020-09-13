@@ -1,0 +1,21 @@
+body {
+  text-align: center;
+  background-image: url('./images/bg-pattern-bottom-desktop.svg');
+  font-size: 15px;
+}
+
+.header {
+  color: hsl(300, 43%, 22%);
+}
+
+.testimonial {
+  background-color: hsl(300, 43%, 22%);
+}
+
+.verified-tag {
+  color: hsl(333, 80%, 67%);
+}
+
+.testimonial-author {
+  color: hsl(0, 0%, 100%);
+}
