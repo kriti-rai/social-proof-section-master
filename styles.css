@@ -1,21 +1,42 @@
 body {
-  text-align: center;
+  margin: 0 auto;
   background-image: url('./images/bg-pattern-bottom-desktop.svg');
   font-size: 15px;
 }
 
 .header {
+  float: left;
+  display: inline-block;
+}
+.main-header {
   color: hsl(300, 43%, 22%);
+  width: 22%;
+}
+
+.sub-header {
+  color: hsl(303, 10%, 53%);
+  width: 25%;
+}
+
+.ratings {
+  float: right;
+  display: inline-block;
+}
+
+.rating {
+  display: block;
 }
 
 .testimonial {
   background-color: hsl(300, 43%, 22%);
+  width: 22%;
+  display: inline-flex;
 }
 
 .verified-tag {
   color: hsl(333, 80%, 67%);
 }
 
-.testimonial-author {
+.testimonial-author, .testimonial {
   color: hsl(0, 0%, 100%);
 }
