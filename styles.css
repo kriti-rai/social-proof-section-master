@@ -2,6 +2,7 @@ body {
   margin: 0 auto;
   background-image: url('./images/bg-pattern-bottom-desktop.svg');
   font-size: 15px;
+  font-family: 'Spartan', sans-serif;
 }
 
 .header {
@@ -11,7 +12,8 @@ body {
 .main-header {
   color: hsl(300, 43%, 22%);
   width: 22%;
-  font-size: 5em;
+  font-size: 4em;
+  font-weight: 700;
 }
 
 .sub-header {
@@ -39,6 +41,12 @@ body {
   color: hsl(333, 80%, 67%);
 }
 
-.testimonial-author, .testimonial {
+.testimonial-author {
+  color: hsl(0, 0%, 100%);
+  font-weight: 500;
+}
+
+.testimonial {
+  font-weight: 400;
   color: hsl(0, 0%, 100%);
 }
