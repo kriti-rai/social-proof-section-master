@@ -5,11 +5,11 @@ body {
   font-family: 'Spartan', sans-serif;
 }
 #root {
-  margin: 40px;
+  margin: 80px;
 }
 
 .header {
-  position: absolute;
+  /* position: absolute; */
   float: left;
   display: inline-block;
 }
@@ -43,6 +43,7 @@ body {
 }
 .testimonial-img {
   border-radius: 50%;
+  height: 5%;
 }
 .verified-tag {
   color: hsl(333, 80%, 67%);
