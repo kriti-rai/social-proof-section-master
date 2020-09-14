@@ -15,25 +15,28 @@ body {
 #root {
   text-align: center;
   position: absolute;
-  width: 85%;
+  width: 95%;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
-
-
+.top-half {
+  position: relative;
+}
 .header {
-  width: 50%;
+  width: 45%;
   position: relative;
   display: inline-block;
   text-align: left;
+  /* float: left; */
 }
 
 .main-header {
   color: hsl(300, 43%, 22%);
   width: 55%;
-  font-size: 3em;
+  font-size: 3.2em;
   font-weight: 700;
+  margin-left: 225px;
 }
 
 .sub-header {
@@ -43,66 +46,69 @@ body {
   font-family: 'Spartan', sans-serif;
   font-weight: 500;
   line-height: 24px;
+  margin-left: 225px;
 }
-
 .ratings {
   float: right;
-  width: 50%;
+  position: relative;
+  /* bottom: 0; */
+  width: 55%;
   display: inline-block;
+  vertical-align: bottom;
 }
 
 .rating {
   display: block;
   width: 425px;
   background-color: hsl(300, 24%, 96%);
-  height: 45px;
+  height: 50px;
   margin-bottom: 20px;
   color: hsl(300, 43%, 22%);
   font-weight: 700;
   border-radius: 11px;
   text-align: left;
 }
+.rating:nth-child(2) {
+  margin-left: 54px;
 
+}
+.rating:nth-child(3) {
+  margin-left: 108px;
+}
 .rating span.rating-content {
-  line-height: 45px;
+  line-height: 50px;
   margin-left: 35px;
 }
-
 
 .stars {
   margin-right: 22px;
 }
 
-.bottom-half {
-  position: relative;
-  text-align: left;
-
-}
-
 .testimonials {
-  /* margin-bottom: 100px;
-  display: block; */
+  margin-top: 65px;
   text-align: left;
-  height: 450px;
   position: relative;
+  margin-left: 225px;
 }
 .testimonial:first-child {
-  margin-top: 75px;
+  vertical-align: top;
 }
 .testimonial:nth-child(2) {
-  margin-top: 110px;
-  margin-left: 22px;
+  vertical-align: top;
+  margin-top: 18px;
+  margin-left: 26px;
 
 }
 .testimonial:nth-child(3) {
-  margin-top: 125px;
-  margin-left: 22px;
+  vertical-align: top;
+  margin-top: 36px;
+  margin-left: 26px;
 }
 
 .testimonial {
   background-color: hsl(300, 43%, 22%);
-  width: 21.5%;
-  height: 145px;
+  width: 19.5%;
+  height: 160px;
   display: inline-block;
   color: hsl(300, 43%, 22%);
   border-radius: 11px;
@@ -149,8 +155,11 @@ body {
 
 /* footer */
 .attribution {
-  bottom: 0;
   position: absolute;
+  margin-top: 80px;
   text-align: center;
   width: 100%;
+}
+.coded-by {
+  text-decoration: none;
 }
